@@ -1,13 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import RegisterClient from '../pages/RegisterClient';
+import RegisterClient from '../pages/clients/RegisterClient';
 import EnrollClient from '../pages/EnrollClient';
-import SearchClients from '../pages/SearchClients';
-import ViewClient from '../pages/ViewClient';
-import NotFound from    '../pages/NotFound';
-import React from 'react';
-// AppRoutes.tsx
-// This file defines the routes for the application using React Router.
+import SearchClients from '../pages/clients/SearchClients';
+import ViewClient from 
+import NotFound from '../pages/NotFound';
 
 const AppRoutes: React.FC = () => {
   return (
