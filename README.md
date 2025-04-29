@@ -1,9 +1,11 @@
 # HealthSync
 
-A comprehensive web-based system for healthcare providers to manage client information, program enrollment, and health outcomes tracking.
+#### A comprehensive web-based system for healthcare providers to manage client information, program enrollment, and health outcomes tracking.
 ---
 
-See the [User Manual](./documentations/UserManual.md) To get Started with HealthSync.
+### To Get Started
+- Check the [User Manual](./Documentations/UserManual.md) or
+- Watch the  [Presentation Slides](https://www.canva.com/design/DAGlxfVM3BE/gwOg2FqWULLJk4m73Kbi9Q/view?utm_content=DAGlxfVM3BE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h81ba78dbc8)
 
 ## 📌 Purpose
 
@@ -43,7 +45,7 @@ The **HealthSync** enables healthcare organizations to efficiently manage client
 
 ## ⚙️ Setup Instructions
 
-See the [Developer Guide](./documentations/DeveloperGuide.md) for detailed setup and configuration.
+See the [Developer Guide](./Documentations/DeveloperGuide.md) for detailed setup and configuration.
 
 ### Quick Start
 
