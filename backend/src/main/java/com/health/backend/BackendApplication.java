@@ -1,13 +1,13 @@
-package health.health;
+package com.health.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HealthApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HealthApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
