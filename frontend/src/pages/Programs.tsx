@@ -219,7 +219,7 @@ const Programs: React.FC = () => {
           />
         </div>
 
-        <Button onClick={() => navigate('/programs/create')}>
+        <Button onClick={() => navigate('/programs/add')}>
           <Plus className="mr-2 h-4 w-4" />
           Add Program
         </Button>
