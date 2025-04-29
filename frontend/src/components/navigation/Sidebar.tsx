@@ -6,7 +6,7 @@ import {
   Users, 
   Settings,
   User,
-  Plus,
+  CalendarPlus2,
   Search,
   FileText,
   Calendar
@@ -29,7 +29,7 @@ const mainNavItems: NavItem[] = [
 const clientNavItems: NavItem[] = [
   { icon: User, label: 'Register Client', path: '/clients/register' },
   { icon: Calendar, label: 'Enroll Client', path: '/clients/enroll' },
-  { icon: Plus, label: 'Add Program', path: '/programs/add' },
+  { icon: CalendarPlus2, label: 'Add Program', path: '/programs/add' },
   { icon: Search, label: 'Search Clients', path: '/clients/search' },
 ];
 

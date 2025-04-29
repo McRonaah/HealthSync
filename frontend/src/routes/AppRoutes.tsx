@@ -20,10 +20,10 @@ import ViewClient from '../pages/clients/ViewClient';
 import Settings from '../pages/settings/Settings';
 import NotFound from '../pages/NotFound';
 
-import Programs from "../pages/Programs";
+import Programs from "../pages/Programs/Programs";
 
-import ProgramDetail from '@/pages/ProgramDetail';
-import AddProgram from '@/pages/AddProgram';
+import ProgramDetail from '@/pages/Programs/ProgramDetail';
+import AddProgram from '@/pages/Programs/AddProgram';
 const AppRoutes: React.FC = () => {
   const { isAuthenticated, isLoading } = useAuth();
   
