@@ -24,7 +24,7 @@ const Login: React.FC = () => {
       navigate('/dashboard');
       toast({
         title: "Login successful",
-        description: "Welcome back to Health System!",
+        description: "Welcome back to HealthSync!",
       });
     } catch (error) {
       toast({

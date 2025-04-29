@@ -70,7 +70,7 @@ const Sidebar: React.FC<{ isMobile?: boolean; closeMobileMenu?: () => void }> = 
           <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">
             <span className="text-white font-bold">H</span>
           </div>
-          <h1 className="text-xl font-bold">Health System</h1>
+          <h1 className="text-xl font-bold">Health Sync</h1>
         </div>
         
         <nav>
