@@ -15,12 +15,12 @@ import { ArrowLeft, Calendar, Edit, UserPlus } from 'lucide-react';
 // Mock client data
 const client = {
   id: '1',
-  firstName: 'Sarah',
+  firstName: 'Dennis',
   lastName: 'Martinez',
   gender: 'Female',
   dateOfBirth: '1985-05-15',
   phoneNumber: '(555) 123-4567',
-  email: 'sarah.m@example.com',
+  email: 'dennismartinez@gmail.com',
   address: '1234 Main St, Apt 5B, Cityville, ST 12345',
   enrollmentDate: '2023-01-15',
   programs: [
@@ -50,7 +50,7 @@ const client = {
       date: '2023-03-15',
       type: 'Follow-up',
       notes: 'Client has been following nutrition plan well. Blood glucose levels have improved slightly.',
-      provider: 'Dr. Emily Chen'
+      provider: 'Dr. Ronald Kipchirchir'
     },
     {
       id: '3',

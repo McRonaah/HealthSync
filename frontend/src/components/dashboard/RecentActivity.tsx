@@ -11,7 +11,7 @@ interface ActivityItem {
 const mockActivities: ActivityItem[] = [
   { 
     id: '1',
-    description: 'Sarah Martinez was registered as a new client',
+    description: 'Dennis Martinez was registered as a new client',
     time: '10 minutes ago',
     type: 'client'
   },
@@ -29,7 +29,7 @@ const mockActivities: ActivityItem[] = [
   },
   { 
     id: '4',
-    description: 'James Wilson was enrolled in Hypertension Control Program',
+    description: 'James Waweru was enrolled in Hypertension Control Program',
     time: '5 hours ago',
     type: 'client'
   },

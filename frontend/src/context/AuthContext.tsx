@@ -5,10 +5,10 @@ import { User, AuthState } from '../types/auth';
 // Mock user for demo purposes
 const mockUser: User = {
   id: '1',
-  name: 'Dr. Sarah Johnson',
-  email: 'sarah.johnson@health.org',
+  name: 'Dr. Ronald Kipchirchir',
+  email: 'ronald.mololu@gmail.com',
   role: 'Admin',
-  avatar: 'https://i.pravatar.cc/150?img=48',
+  avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQGbEsXhKe88iQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718922802653?e=1751500800&v=beta&t=Psxp8zkZS77MFa-mYcuIkxnPm-ot8EkS-w3UlDeQ2zw',
 };
 
 interface AuthContextType {

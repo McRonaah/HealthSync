@@ -19,7 +19,7 @@ const AuthLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="mt-4 flex items-center">
               <div className="h-10 w-10 rounded-full bg-white/20"></div>
               <div className="ml-3">
-                <p className="font-medium">Dr. Emily Chen</p>
+                <p className="font-medium">Dr. Ronald Kipchirchir</p>
                 <p className="text-sm text-primary-100">Medical Director</p>
               </div>
             </div>

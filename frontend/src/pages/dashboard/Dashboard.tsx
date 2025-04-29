@@ -43,14 +43,14 @@ const Dashboard: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <StatCard 
           title="Total Clients" 
-          value="2,851" 
+          value="851" 
           icon={<Users size={24} className="text-primary" />}
           trend={{ value: 12, isPositive: true }}
         />
         
         <StatCard 
           title="Active Programs" 
-          value="16" 
+          value="9" 
           icon={<Calendar size={24} className="text-primary" />}
           trend={{ value: 5, isPositive: true }}
         />

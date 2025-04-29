@@ -17,7 +17,7 @@ interface ChartContainerProps {
   title: string;
   description?: string;
   type: 'bar' | 'pie';
-  data: any[];
+  data: unknown[];
   className?: string;
 }
 

@@ -44,12 +44,12 @@ const RegisterClient: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="firstName">First Name</Label>
-                <Input id="firstName" placeholder="John" required />
+                <Input id="firstName" placeholder="Ronald" required />
               </div>
               
               <div className="space-y-2">
                 <Label htmlFor="lastName">Last Name</Label>
-                <Input id="lastName" placeholder="Doe" required />
+                <Input id="lastName" placeholder="Kipchirchir" required />
               </div>
               
               <div className="space-y-2">
@@ -83,17 +83,17 @@ const RegisterClient: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="phoneNumber">Phone Number</Label>
-                <Input id="phoneNumber" placeholder="+1 (555) 000-0000" required />
+                <Input id="phoneNumber" placeholder="+254 (702) 000-000" required />
               </div>
               
               <div className="space-y-2">
                 <Label htmlFor="email">Email (Optional)</Label>
-                <Input id="email" type="email" placeholder="john.doe@example.com" />
+                <Input id="email" type="email" placeholder="ronald.mololu@gmail.com" />
               </div>
               
               <div className="space-y-2 md:col-span-2">
                 <Label htmlFor="address">Address</Label>
-                <Textarea id="address" placeholder="123 Main St, City, State, ZIP" required />
+                <Textarea id="address" placeholder="123 Nairobi, City, State, ZIP" required />
               </div>
             </div>
           </div>
