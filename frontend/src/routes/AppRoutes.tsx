@@ -24,6 +24,8 @@ import Programs from "../pages/Programs/Programs";
 
 import ProgramDetail from '@/pages/Programs/ProgramDetail';
 import AddProgram from '@/pages/Programs/AddProgram';
+
+import Reports from '../pages/Reports/Reports';
 const AppRoutes: React.FC = () => {
   const { isAuthenticated, isLoading } = useAuth();
   
@@ -62,10 +64,11 @@ const AppRoutes: React.FC = () => {
         
         {/* Temporary placeholders for other routes */}
         <Route path="/programs" element={<Programs />} />
-        <Route path="/reports" element={<div className="p-8"><h1 className="text-2xl font-bold">Reports Page</h1><p className="mt-4">This page is under development.</p></div>} />
+        <Route path="/reports" element={<Reports />} />
 
         <Route path="/programs/:id" element={<ProgramDetail />} />
         <Route path="/programs/add" element={<AddProgram />} />
+
         
         {/* Add more routes as needed */}
 
